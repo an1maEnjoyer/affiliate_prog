@@ -1,0 +1,38 @@
+.header{
+    padding: 70px 100px 60px 80px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #fff;
+
+    ul{
+        list-style: none;
+        display: flex;
+
+        li{
+            margin-left: 75px;
+        }
+    } 
+    
+    a{
+        color: #fff;
+        font-family: "Tektur", sans-serif;
+        font-size: 26px;
+        cursor: pointer;
+    }  
+}
+.header_logo{
+    font-size: 26;
+    font-family: "Rimma";
+    font-weight: bold;
+}
+.log_in {
+    background-color: #3b70a0;
+    width: 128px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

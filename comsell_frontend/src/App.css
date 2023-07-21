@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Tektur";
+    src: url("fonts/Tektur-Regular.ttf") format("truetype"); /* Путь до вашего файла шрифта */
+}
+@font-face {
+    font-family: "Rimma";
+    src: url("fonts/RIMMA_SANS-BOLD.TTF") format("truetype");
+}
+@font-face {
+    font-family: "Mont";
+    src: url("fonts/mont_heavydemo.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    height: 950px;
+}
+.left_side {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+}
+.rigth_side {
+    background-color: #03172a;
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid rgb(186, 186, 186, 0.15);
+    overflow: auto; /* Показывать скроллбар только при необходимости */
+}
+.circle {
+    z-index: -1;
+    width: 1300px;
+    height: 1300px;
+    border-radius: 50%;
+    background-color: #1c3d5b;
+    position: absolute;
+    left: -290px;
+    top: -600px;
+}
+body {
+    background-color: #0a2640;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    color: #fff;
+}
+h2 {
+    font-family: "Mont";
+    color: #fff;
+    font-size: 40px;
+}
+h3 {
+    margin-top: 40px;
+    font-family: "Tektur";
+    font-size: 40px;
+    color: #fff;
+}

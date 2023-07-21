@@ -1,0 +1,15 @@
+.tag {
+  display: inline-block;
+  font-family: 'Tektur';
+  font-size: 25px;
+  color: #fff;
+  border-radius: 40px;
+  border: solid 1px #a1aebf;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.tag:hover {
+  background-color: #3b70a0;
+}

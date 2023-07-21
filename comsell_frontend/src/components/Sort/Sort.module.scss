@@ -1,0 +1,52 @@
+.sort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+  ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 120px; /* Теперь псевдоэлемент смещен на величину внутреннего отступа */
+    bottom: 0;
+    border-left: 2px solid #5c5f65;
+  }
+}
+.sort_label {
+  background-color: #3b70a0;
+  width: 300px;
+  height: 48px;
+  border-radius: 8px;
+  position: relative;
+  span {
+    font-family: 'Tektur';
+    font-size: 35px;
+    color: #c0c0c0;
+    position: absolute;
+    left: 45px;
+  }
+}
+.left_icon {
+  fill: #c0c0c0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 5px;
+}
+.arrow {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  opacity: 0.5;
+}
+.sort .hidden {
+  opacity: 0;
+}
+
+.sort .visible {
+  opacity: 1;
+}
